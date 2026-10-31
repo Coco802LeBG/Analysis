@@ -2,7 +2,11 @@ package com.example.fw;
 
 import com.example.fw.gui.ClickGuiScreen;
 import com.example.fw.gui.GuiModule;
-import com.example.fw.module.*;
+import com.example.fw.module.HudCleaner;
+import com.example.fw.module.Module;
+import com.example.fw.module.StorageEntityRadar;
+import com.example.fw.module.SusChunkFinder;
+import com.example.fw.module.TargetBlockNotifier;
 import com.example.fw.render.LineBatch;
 import com.example.fw.util.ChunkActivityTracker;
 import net.fabricmc.api.ClientModInitializer;
